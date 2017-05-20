@@ -87,6 +87,12 @@
       <DependentUpon>main.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="mmenu.Designer.vb">
+      <DependentUpon>mmenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mmenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="radio.Designer.vb">
       <DependentUpon>radio.vb</DependentUpon>
     </Compile>
@@ -133,6 +139,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="main.resx">
       <DependentUpon>main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mmenu.resx">
+      <DependentUpon>mmenu.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="radio.resx">
       <DependentUpon>radio.vb</DependentUpon>
@@ -197,6 +206,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\reminder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
